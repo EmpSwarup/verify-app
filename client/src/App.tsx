@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './App.css'; // Ensure this file includes Tailwind directives
+import './App.css';
 import { Button } from '@/components/ui/button';
 import { InputOTP, InputOTPGroup, InputOTPSlot } from '@/components/ui/input-otp';
 import { REGEXP_ONLY_DIGITS_AND_CHARS } from 'input-otp';
@@ -8,7 +8,7 @@ const App: React.FC = () => {
   const [otp, setOtp] = useState<string>('');
   const [message, setMessage] = useState<string>('Enter code');
   const [messageType, setMessageType] = useState<'success' | 'error' | 'default'>('default');
-  const [isValid, setIsValid] = useState<boolean[]>(new Array(6).fill(true)); // Checking for each slot
+  const [isValid, setIsValid] = useState<boolean[]>(new Array(6).fill(true)); // Checking for validity on each slot of input
 
   const handleOtpChange = (value: string) => {
     setOtp(value);
@@ -88,7 +88,7 @@ const App: React.FC = () => {
               <InputOTPSlot
                 key={index}
                 index={index}
-                className={`border-2 ${isValid[index] ? 'border-gray-300' : 'border-red-600'}`} // Tailwind classes for border color
+                className={`border-2 ${isValid[index] ? 'border-gray-300' : 'border-red-600'}`} // Doesnt work now :)
               />
             ))}
           </InputOTPGroup>
