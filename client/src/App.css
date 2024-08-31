@@ -1,0 +1,19 @@
+/* App.css */
+
+.input-slot {
+  @apply border-2 border-gray-300;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.input-slot.invalid {
+  @apply border-red-600;
+  box-shadow: 0 0 0 2px rgba(248, 113, 113, 0.5); /* Red glow */
+}
+
+.card {
+  @apply bg-gray-800 text-white p-6 rounded-lg shadow-lg w-full max-w-md flex flex-col items-center justify-center border-2 border-white;
+}
+
+.message {
+  @apply mb-4;
+}
