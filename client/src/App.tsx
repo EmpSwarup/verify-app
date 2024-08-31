@@ -8,7 +8,7 @@ const App: React.FC = () => {
   const [otp, setOtp] = useState<string>('');
   const [message, setMessage] = useState<string>('Enter code');
   const [messageType, setMessageType] = useState<'success' | 'error' | 'default'>('default');
-  const [isValid, setIsValid] = useState<boolean[]>(new Array(6).fill(true)); // Checking for validity on each slot of input
+  const [isValid, setIsValid] = useState<boolean[]>(new Array(6).fill(true)); // Checking for valid on each slot of input
 
   const handleOtpChange = (value: string) => {
     setOtp(value);
