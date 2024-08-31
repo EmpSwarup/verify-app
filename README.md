@@ -33,4 +33,13 @@ npm test
 ```
 ## Screenshots
 
+### Homepage
+![App Screenshot](https://github.com/EmpSwarup/verify-app/blob/main/client/src/assets/screenshot.jpg?raw=true)
 
+### Postman tests
+
+![App Screenshot](https://github.com/EmpSwarup/verify-app/blob/main/client/src/assets/screenshot2.jpg?raw=true)
+
+![App Screenshot](https://github.com/EmpSwarup/verify-app/blob/main/client/src/assets/screenshot3.jpg?raw=true)
+
+![App Screenshot](https://github.com/EmpSwarup/verify-app/blob/main/client/src/assets/screenshot4.jpg?raw=true)
