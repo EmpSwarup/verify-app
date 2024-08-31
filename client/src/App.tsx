@@ -103,7 +103,7 @@ const App: React.FC = () => {
         </Button>
       </div>
       <footer className="absolute bottom-4 w-full text-center text-white">
-        <a href="https://github.com/EmpSwarup/verification-task" className="hover:underline" target='_blank'>
+        <a href="https://github.com/EmpSwarup/verify-app" className="hover:underline" target='_blank'>
           View on GitHub
         </a>
       </footer>
