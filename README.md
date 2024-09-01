@@ -27,7 +27,7 @@ cd server
 npm start
 ```
 
-### For testing:
+### For Testing:
 ```
 cd server
 npm test
@@ -37,10 +37,14 @@ npm test
 ### Homepage
 ![App Screenshot](https://github.com/EmpSwarup/verify-app/blob/main/client/src/assets/screenshot.jpg?raw=true)
 
-### Postman tests
+### Postman Tests
 
 ![App Screenshot](https://github.com/EmpSwarup/verify-app/blob/main/client/src/assets/screenshot2.jpg?raw=true)
 
 ![App Screenshot](https://github.com/EmpSwarup/verify-app/blob/main/client/src/assets/screenshot3.jpg?raw=true)
 
 ![App Screenshot](https://github.com/EmpSwarup/verify-app/blob/main/client/src/assets/screenshot4.jpg?raw=true)
+
+### Jest Test
+
+![App Screenshot](https://github.com/EmpSwarup/verify-app/blob/main/client/src/assets/screenshot5.jpg?raw=true)
