@@ -28,7 +28,7 @@ npm start
 
 ### For testing:
 ```
-cd /server
+cd server
 npm test
 ```
 ## Screenshots
