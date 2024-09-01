@@ -103,6 +103,7 @@ const App: React.FC = () => {
         </Button>
       </div>
       <footer className="absolute bottom-4 w-full text-center text-white">
+        <p>Intial verification may take a few seconds, please be patient.</p>
         <a href="https://github.com/EmpSwarup/verify-app" className="hover:underline" target='_blank'>
           View on GitHub
         </a>
