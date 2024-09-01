@@ -7,6 +7,7 @@
 - Express and Nodejs with typescript for Backend
 - shadcn for UI components
 - TailwindCSS for styling
+- React Router DOM for basic routing
 - Jest and Postman for testing
 - Frontend hosted on Vercel
 - Backend hosted on Render
