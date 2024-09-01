@@ -11,8 +11,8 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/index.html",
-      "continue": true
+      "dest": "/index.html"
     }
-  ]
+  ],
+  "cleanUrls": true
 }
