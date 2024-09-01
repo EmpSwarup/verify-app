@@ -28,7 +28,7 @@ npm start
 
 ### For testing:
 ```
-cd /server
+cd server
 npm test
 ```
 ## Screenshots
@@ -43,7 +43,3 @@ npm test
 ![App Screenshot](https://github.com/EmpSwarup/verify-app/blob/main/client/src/assets/screenshot3.jpg?raw=true)
 
 ![App Screenshot](https://github.com/EmpSwarup/verify-app/blob/main/client/src/assets/screenshot4.jpg?raw=true)
-
-### Jest Test
-
-![App Screenshot](https://github.com/EmpSwarup/verify-app/blob/main/client/src/assets/screenshot5.jpg?raw=true)
